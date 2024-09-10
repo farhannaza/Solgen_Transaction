@@ -102,7 +102,7 @@ export default function MarketGrid() {
                             </div>
                             <div className='flex justify-between items-center pb-2'>
                                 <div className='text-lg font-bold'>RM {item.priceRM}</div>
-                                <div className='text-lg font-bold'>{item.priceSOL} SOL</div>
+                                <div className='text-lg font-bold'>{item.priceSOL} ETH</div>
                             </div>
                             <div className='flex justify-center'>
                                 <Button type="primary" className='w-2/6' onClick={() => handleBuy(item.priceSOL)}>Buy</Button>
