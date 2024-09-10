@@ -91,7 +91,7 @@ const SwapSol: React.FC = () => {
         <div className="flex flex-col items-center justify-center">
             <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
                 <div className='flex gap-2 p-2 justify-center items-center'>
-                    <h1 className="text-2xl font-bold mb-4 text-center">Solana Exchange</h1>
+                    <h1 className="text-2xl font-bold mb-4 text-center">Ethereum Exchange</h1>
                 </div>
                 <label className="block text-gray-700 text-sm font-bold mb-2">Paying</label>
                 <div className="flex justify-between mb-4 border border-gray-300 rounded p-2">
@@ -125,7 +125,7 @@ const SwapSol: React.FC = () => {
                 <label className="block text-gray-700 text-sm font-bold mb-2">Receiving</label>
                 <div className="flex justify-between mb-4 border border-gray-300 rounded p-2">
                     <div className='flex items-center gap-2 ml-4'>
-                        <p className='font-black text-lg'>SOL</p>
+                        <p className='font-black text-lg'>ETH</p>
                         <img src="solanalogo.svg" alt="Solana Logo" className="w-1/12" />
                     </div>
                     <input
