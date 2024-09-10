@@ -39,7 +39,7 @@ export default function MarketGrid() {
         }
     }, []);
 
-    const handleBuy = async (priceSOL) => {
+    const handleBuy = async (priceSOL: number) => {
         const web3 = window.web3;
         const accounts = await web3.eth.getAccounts();
         const senderAddress = accounts[0];
