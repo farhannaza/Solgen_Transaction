@@ -87,7 +87,7 @@ export default function LayoutApp({ children }: Readonly<{ children: React.React
 
       <div className="faq-section">
         <Text strong>Q: When will I receive my solar credits?</Text>
-        <Paragraph>A: Credits are distributed monthly on the 1st, based on the previous month's production.</Paragraph>
+        <Paragraph>A: Credits are distributed monthly on the 1st, based on the previous month&apos;s production.</Paragraph>
       </div>
 
       <div className="contact-section mt-8">
